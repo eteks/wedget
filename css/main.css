@@ -310,7 +310,7 @@ h1.navbar-brand {
 }
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
     background-color: transparent;
-    color: #ccc;
+    color: #009EE3;
 }
 
 /*=================================================================
@@ -524,6 +524,7 @@ text-transform:uppercase;
     height: 85px;
     width: 85px;
     line-height: 101px;
+    margin:22px;
 
     -webkit-transform: rotate(47deg);
        -moz-transform: rotate(47deg);
@@ -951,6 +952,16 @@ button.contact:hover {
     padding: 0;
 }
 
-
-
-
+#our-services .fa-3x {
+    color: #98bf3d;
+}
+#about-us h2, #our-services h2,#our-works h2,#our-clients h2,#our-clients h2, #contact-us h2, #social h2{
+font-family: 'Pattaya', sans-serif;
+}
+ 
+#slider h2  {
+font-family: 'Righteous', cursive;
+ }
+#about-us , #our-services p, #our-works p,#our-clients p,#our-clients p, #contact-us p, #social p{
+font-family: 'Playball', cursive;
+}
