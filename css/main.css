@@ -283,6 +283,7 @@ main > section {
     background-color:#fff;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
     padding: 5px 0;
+    height: 100px;
 }
 
 #navigation.animated-header {
@@ -372,10 +373,10 @@ h1.navbar-brand {
 
 .caption-content h2 {
     color: #fff;
-    font-size: 52px;
+    font-size: 105px;
     font-weight: 400;
     margin-bottom: 25px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .caption-content > span {
@@ -955,13 +956,19 @@ button.contact:hover {
 #our-services .fa-3x {
     color: #98bf3d;
 }
-#about-us h2, #our-services h2,#our-works h2,#our-clients h2,#our-clients h2,.testimonials h2,#contact-us h2, #social h2{
-font-family: 'Pattaya', sans-serif;
+
+#about-us h2,#our-services h2,#our-works h2,#our-clients h2,#our-clients h2, #contact-us h2, #social h2,.testimonials h2{
+	font-family: 'Pattaya', sans-serif;
 }
  
-#slider h2  {
-font-family: 'Righteous', cursive;
- }
-#about-us , #our-services p, #our-works p,#our-clients p,#our-clients p,.testimonials p, #contact-us p, #social p{
-font-family: 'Playball', cursive;
+#slider h2 , #about-us span {
+	font-family: 'Tangerine', cursive;
+	/*font-family: 'Righteous', cursive;*/
+	 /*font-family: 'Dosis', sans-serif;*/
+	 /*font-family: 'Reem Kufi', sans-serif;*/
+	/*font-family: 'Sacramento', cursive;*/
 }
+#about-us , #our-services p, #our-works p,#our-clients p,#our-clients p, #contact-us p, #social p,.testimonials p{
+	font-family: 'Playball', cursive;
+}
+ 
